@@ -2,7 +2,7 @@
     width: 100%;
     height: 680px;
     background-color: rgb(2, 87, 122);
-    background-image: url('../img/background_1.png'), url("../img/topTrans.png");
+    background-image: url('../img/background_1.webp'), url("../img/topTrans.webp");
     background-repeat: no-repeat;
     background-position: center 15% ,top center;
     position: relative;

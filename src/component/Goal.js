@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/Goal.css';
-import goalImg from '../img/goal.jpg';
+import goalImg from '../img/goal.webp';
 
 function Goal() {
     return (

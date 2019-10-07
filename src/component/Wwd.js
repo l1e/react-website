@@ -1,11 +1,11 @@
 import React from 'react';
 import '../style/Wwd.css';
-import wwd_php from '../img/wwd_php.png';
-import wwd_javascript from '../img/wwd_javascript.png';
-import wwd_react_native from '../img/wwd_react_native_b-1.png';
-import wwd_html from '../img/wwd_html-5-logo.png';
-import wwd_css from '../img/wwd_css-3.png';
-import wwd_photoshop from '../img/wwd_adobe-photoshop.png';
+import wwd_php from '../img/wwd_php.webp';
+import wwd_javascript from '../img/wwd_javascript.webp';
+import wwd_react_native from '../img/wwd_react_native_b-1.webp';
+import wwd_html from '../img/wwd_html-5-logo.webp';
+import wwd_css from '../img/wwd_css-3.webp';
+import wwd_photoshop from '../img/wwd_adobe-photoshop.webp';
 
 
 function Wwd() {
