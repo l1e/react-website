@@ -1,0 +1,70 @@
+.goal{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    background-color: rgb(255,255,255);
+    margin-top: 100px;
+    position: relative;
+}
+.goal_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: inherit;
+}
+.goal_right{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal_title{
+    font-size: 36px;
+    padding: 0px 10px;
+}
+.goal_text{
+    padding: 0px 10px;
+}
+.goal_img{
+    width: 100%;
+}
+
+.goal_shadow_bottom{
+    position: absolute;
+    bottom: -100px;
+    height: 100px;
+    left: 0px;
+    width: 100%;
+}
+
+.goal_shadow_bottom path{
+    fill: #02577a;
+    stroke: #02577a;
+}
+
+
+@media screen and (max-width: 991px) {
+    .goal_title{
+        font-size: 28px;
+    }
+    .goal_text{
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .goal{
+        flex-direction: column;
+    }
+    .goal_left,.goal_right{
+        width: 100%;
+    }
+    .goal_title{
+        font-size: 24px;
+    }
+    .goal_text{
+        font-size: 14px;
+    }
+}

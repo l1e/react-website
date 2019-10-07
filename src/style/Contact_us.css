@@ -1,0 +1,75 @@
+.Contact-us{
+    margin-top: 100px;
+    background-color: #fafafa;
+}
+
+.contact-us_title{
+    text-align: center;
+    color: #02577a;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+    text-transform: uppercase;
+}
+.contact-us_desc{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #909090;
+    margin: 0;
+    padding-top: 10px;
+}
+.contact-us_from{
+    width: 70%;
+    margin: auto;
+}
+.contact-us_label{
+    font-size: 18px;
+    font-style: normal;
+    color: #777777;
+    width: 100%;
+}
+.contact-us_input{
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    padding: .9em 0 .8em 1em;
+    margin: .4em .4em .4em 0;
+    border: 1px solid #dedede;
+    border-width: 0 0 1px 0;
+}
+.contact-us_input:focus, .contact-us_input:focus {
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid #dedede;
+    border-width: 0 0 1px 0;
+    border-color: #02577a;
+    padding: .9em 0 .8em 1em;
+    margin: .4em .4em .4em 0;
+    outline: none;
+}
+
+.contact-us_send{
+    border-radius: 2px;
+    margin: 15px;
+    background: transparent;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    padding: 14px 24px;
+    letter-spacing: 3px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    transition: all 0.4s;
+    position: relative;
+    overflow: hidden!important;
+    z-index: 2;
+    white-space: normal;
+}
