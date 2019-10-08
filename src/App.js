@@ -6,7 +6,8 @@ import Wwd from './component/Wwd';
 import Contact_us from './component/Contact_us';
 import Menu from './component/Menu';
 import Footer from './component/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './style/bootstrap_neded.sass';
+
 
 function App() {
   return (
