@@ -7,7 +7,6 @@ import wwd_html from '../img/wwd_html-5-logo.webp';
 import wwd_css from '../img/wwd_css-3.webp';
 import wwd_photoshop from '../img/wwd_adobe-photoshop.webp';
 
-
 function Wwd() {
     return (
         <div className="Wwd">
