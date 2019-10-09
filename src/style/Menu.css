@@ -1,11 +1,16 @@
 
+.bg-dark {
+    background-color: transparent!important;
+    z-index: 555;
+}
+
 .active.nav-link{
     border-bottom: 2px solid #02577a;
 }
 .nav-link{
     font-weight: 700;
     font-size: 14px;
-    color: #0a0a0a !important;
+    color: #e6e6e6 !important;
 }
 .logo{
     width: 214px;

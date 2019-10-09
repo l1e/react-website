@@ -5,7 +5,7 @@ import '../style/Menu.css';
 import goalImg from '../img/logo_250_dark.webp';
 function Menu() {
     return (
-        <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="#home">
                 <img className="logo" src={goalImg} alt=""/>
             </Navbar.Brand>

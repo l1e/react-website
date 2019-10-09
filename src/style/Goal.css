@@ -30,6 +30,7 @@
 }
 .goal_img{
     width: 100%;
+    max-width: 700px;
 }
 
 .goal_shadow_bottom{
