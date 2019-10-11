@@ -14,11 +14,12 @@ function Menu() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link className="active"><Link to="/">Home</Link></Nav.Link>
-                    <Nav.Link ><Link to="/AboutUs" >About Us</Link></Nav.Link>
-                    <Nav.Link ><Link to="/Services" >Services</Link></Nav.Link>
-                    <Nav.Link ><Link to="/OurWork" >Our Work</Link></Nav.Link>
-                    <Nav.Link ><Link to="/Contact" >Contact</Link></Nav.Link>
+
+                    <li className="menu-item"><Link className="active  nav-link" to="/">Home</Link></li>
+                    <li className="menu-item"><Link className="nav-link" to="/AboutUs" >About Us</Link></li>
+                    <li className="menu-item"><Link className="nav-link" to="/Services" >Services</Link></li>
+                    <li className="menu-item"><Link className="nav-link" to="/OurWork" >Our Work</Link></li>
+                    <li className="menu-item"><Link className="nav-link" to="/Contact" >Contact</Link></li>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

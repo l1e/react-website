@@ -11,7 +11,7 @@ import Services from './pages/Services';
 import {BrowserRouter  as Router ,Route, Link, Switch} from "react-router-dom";
 import './style/bootstrap_neded.sass';
 import Menu from "./component/Menu";
-
+import Footer from './component/Footer';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Router>
             <div className="App">
                 <Menu/>
-                <Switch>
+                <Switch >
 
                     <Route exact path="/">
                         <Home />
@@ -41,6 +41,7 @@ function App() {
                         <Services />
                     </Route>
                 </Switch>
+                <Footer/>
             </div>
         </Router>
   );

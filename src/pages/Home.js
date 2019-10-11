@@ -1,23 +1,22 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 import Menu from '../component/Menu';
 import Slider from '../component/Slider';
 import Goal from '../component/Goal';
 import Wwd from '../component/Wwd';
 import Contact_us from '../component/Contact_us';
-import Footer from '../component/Footer';
+
 
 
 
 function Home() {
     return (
-        <div>
+        <Fragment>
             <Slider/>
             <Goal/>
             <Wwd/>
             <Contact_us/>
-            <Footer/>
-        </div>
+        </Fragment>
     );
 }
 
